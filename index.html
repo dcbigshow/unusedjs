@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<head id="Head">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" type="text/css" href="http://img.junlaw.cn/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://img.junlaw.cn/css/animate.min.css" />
+<style>
+    html {background-image:url("{http://img.junlaw.cn/himg/bg-rep-07.jpg"/}
+</style>
+<script src="http://img.junlaw.cn/js/html5.js" ></script>
+<script type="text/javascript" src="http://img.junlaw.cn/js/ie7.js" ></script>
+<script type="text/javascript" src="http://img.junlaw.cn/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('.top img, .footer img, .bottom img, .form-btn, .module-icon-default');
+</script>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>君言法律顾问</title>
+</head>
+<body class="font-zh-CN"  top center fixed;">
+<script src="http://img.junlaw.cn/js/jquery-1.7.2.min.js"></script>
+<script src="http://img.junlaw.cn/js/superfish.js"></script>
+<script src="http://img.junlaw.cn/js/supposition.js"></script>
+<script src="http://img.junlaw.cn/js/jquery.carouFredSel.js"></script>
+<script src="http://img.junlaw.cn/js/jquery.touchSwipe.min.js"></script>
+<script src="http://img.junlaw.cn/js/jquery.tools.min.js"></script>
+<script src="http://img.junlaw.cn/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="http://img.junlaw.cn/js/pgwslideshow.min.js"></script>
+<script src="http://img.junlaw.cn/js/jquery.fixed.js"></script>
+<script src="http://img.junlaw.cn/js/device.min.js"></script>
+<script src="http://img.junlaw.cn/js/animate.min.js"></script>
+<script src="http://img.junlaw.cn/js/custom.js"></script>
+    <div id="wrapper" class="home-page">
+        <header class="top header-v4 desktops-section default-top">
+            <div class="top-bar clearfix">
+                <div class="page-width clearfix">
+                    <div id="a1portalSkin_topAreaB" class="QHDEmptyArea top-widget float-right"></div>
+                    <div id="a1portalSkin_topAreaA" class="QHDEmptyArea top-widget float-left"></div>
+                </div>
+            </div>
+            <div class="top-main">
+                <div class="page-width clearfix">
+                    <div class="logo" skinobjectzone="HtmlLogo_639"><a href="/"><img src="http://img.junlaw.cn/himg/logo.png" alt="君言法律顾问" /></a></div>
+                    <div class="language" skinobjectzone="HtmlLanguage_694"></div>
+                    <div class="top-main-content">
+                        <nav class="nav">
+                            <div class="main-nav clearfix" skinobjectzone="menu_878">
+                                <ul class="sf-menu">
+                                    <li class=""><a class="first-level" href="/" target=""><strong>首页</strong></a><i></i></li>
+                                    <li class=""><a class="first-level" href='/us/' target=""><strong>我们</strong></a><i></i></li>
+                                    <li class=""><a class="first-level" href='/serve/' target=""><strong>服务</strong></a><i></i></li>
+                                    <li class=""><a class="first-level" href='/law/' target=""><strong>法律</strong></a><i></i></li>
+                                    <li class=""><a class="first-level" href='/case/' target=""><strong>案例</strong></a><i></i></li> <li class="tel">咨询热线：18908376927</li>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="touch-top mobile-section clearfix">
+            <div class="touch-top-wrapper clearfix">
+                <div class="touch-logo" skinobjectzone="HtmlLogo_1721"><a class="" href="/"><img src="http://img.junlaw.cn/himg/logo.png"  alt="君言法律顾问" /></a></div>
+                <div class="touch-navigation">
+                    <div class="touch-toggle">
+                        <ul>
+                            <li class="touch-toggle-item-last"><a href="javascript:;" class="drawer-menu" data-drawer="drawer-section-menu"><i class="touch-icon-menu font-icon icon-uniE604"></i><span>君言法律顾问</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="touch-toggle-content touch-top-home">
+                <div class="drawer-section drawer-section-language">
+                    <ul class="touch-language clearfix" skinobjectzone="HtmlLanguage_1982">
+                        <li><a href="/"></a></li>
+                    </ul>
+                </div>
+                <div class="drawer-section drawer-section-menu">
+                    <div class="touch-menu" skinobjectzone="menu_2200">
+                        <ul>
+                            <li><a href="/"><span>首页</span></a></li>
+                            <li><a href='/us/'><span>我们</span></a></li>
+                            <li><a href='/serve/'><span>服务</span></a></li>
+                            <li><a href='/law/'><span>法律</span></a></li>
+                            <li><a href='/case/'><span>案例</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                $(document).ready(function() {
+                    $(".touch-toggle a").click(function(event) {
+                        var className = $(this).attr("data-drawer");
+                        if ($("." + className).css('display') == 'none') {
+                            $("." + className).slideDown().siblings(".drawer-section").slideUp();
+                        } else {
+                            $(".drawer-section").slideUp();
+                        }
+                        event.stopPropagation();
+                    });
+                    /*$(document).click(function(){
+                     $(".drawer-section").slideUp();     
+                    })*/
+                    $('.touch-menu a').click(function() {
+                        if ($(this).next().is('ul')) {
+                            if ($(this).next('ul').css('display') == 'none') {
+                                $(this).next('ul').slideDown();
+                                $(this).find('i').attr("class", "touch-arrow-up");
+                            } else {
+                                $(this).next('ul').slideUp();
+                                $(this).next('ul').find('ul').slideUp();
+                                $(this).find('i').attr("class", "touch-arrow-down");
+                            }
+                        }
+                    });
+                });
+                </script>
+            </div>
+        </div>
+        <div id="a1portalSkin_headerAreaA" class="header">
+            <a name="27798" id="27798"></a>
+            <div class="module-default">
+                <div class="module-inner">
+                    <div id="a1portalSkin_ctr308956308956_mainArea" class="module-content">
+                        <div class="responsive-carousel carousel clearfix">
+                            <div id="responsive-308956">
+                                <div class="carousel-item" style="">
+                                    <div class="carousel-img"><a href="javascript:;" target=""><img src="http://img.junlaw.cn/himg/jj2.jpg" alt="律师莫桑" /></a></div>
+                                </div>
+                                <div class="carousel-item" style="display:none;">
+                                    <div class="carousel-img"><a href="javascript:;" target=""><img src="http://img.junlaw.cn/himg/jj1.jpg"  alt="君言法律顾问" /></a></div>
+                                </div>
+                            </div>
+                            <div class="carousel-btn carousel-btn-fixed" id="carousel-page-308956"></div>
+ <script type="text/javascript">    
+  $(window).load(function(){
+   $("#responsive-308956").carouFredSel({
+    responsive : true,
+    width       : '100%',
+    items  : { visible : 1 },
+    auto     : { pauseOnHover: true, timeoutDuration:5000 },
+    swipe     : { onTouch:true, onMouse:true },
+    pagination  : "#carousel-page-308956"
+    //prev   : { button:"#carousel-prev-308956"},
+    //next   : { button:"#carousel-next-308956"},
+    //scroll : { fx : "coverfade", duration : 1200, timeoutDuration : 1500 }  
+   });
+            
+            $("#responsive-308956 .carousel-item").show();
+  });
+</script>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="main">
+            <div id="a1portalSkin_mainArea" class="full-screen clearfix">
+                <a name="27782" id="27782"></a>
+                <div class="module-full-screen" style="">
+                    <div class="module-inner not-animated" data-animate="fadeInUp" data-delay="200">
+                        <div class="page-width">
+                            <div class="module-full-screen-title">
+                                <h2>Scope Of Business</h2>
+                                <div class="module-title-content">
+                                    <h3>我们擅长</h3></div><em class="module-full-screen-title-line"></em></div>
+                            <div id="a1portalSkin_ctr308945308945_mainArea" class="module-full-screen-content">
+                                <div class="qhd-content lees">
+                                    <div class="column">
+                                        <div class="col-3-1  ">
+                                            <p><a href="/serve/8.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91Q95Sa17.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/8.html">刑事辩护</a></span></p>
+                                        </div>
+<div class="col-3-1  ">
+                                            <p><a href="/serve/11.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91Q9551A20.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/11.html">婚姻家庭</a></span></p>
+                                        </div>
+<div class="col-3-1 last ">
+                                            <p><a href="/serve/7.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91R00001454.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/7.html">法律顾问</a></span></p>
+                                        </div>
+<div class="col-3-1  ">
+                                            <p><a href="/serve/12.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91Q9395R62.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/12.html">债务纠纷</a></span></p>
+                                        </div>
+<div class="col-3-1  ">
+                                            <p><a href="/serve/10.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91QUUI57.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/10.html">房产纠纷</a></span></p>
+                                        </div>
+<div class="col-3-1 last ">
+                                            <p><a href="/serve/9.html">
+                                                <img alt="" src="http://img.junlaw.cn/himg/1-1F91QTH03I.png" style="width: 60px; height: 58px;" /></a></p>
+                                            <p style="line-height: 37px;">
+                                                <span style="font-size:15px;"><a href="/serve/9.html">合同纠纷</a></span></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-full-screen" style="background: #f3f3f3">
+                    <div class="module-inner not-animated" data-animate="fadeInUp" data-delay="200">
+                        <div class="page-width">
+                            <div class="module-full-screen-title">
+                                <h2>Team Presentation</h2>
+                                <div class="module-title-content">
+                                    <h3>团队介绍</h3></div><em class="module-full-screen-title-line"></em></div>
+                            <div id="a1portalSkin_ctr308945308945_mainArea" class="module-full-screen-content">
+                                <div class="qhd-content lee">
+                                    <div class="columns column">
+                                        <ul>
+                                            <li class="col-3-1" >
+                                                <p><a href="/us/15.html"><img src="http://img.junlaw.cn/himg/1-1F92022132Q12.jpg"  alt="莫桑律师" /></a></p>
+                                                <h2><a href="/us/15.html" >莫桑律师</a></h2></li>
+<li class="col-3-1" >
+                                                <p><a href="/us/17.html"><img src="http://img.junlaw.cn/himg/1-1F92022125I58.jpg"  alt="杨梅律师" /></a></p>
+                                                <h2><a href="/us/17.html" >杨梅律师</a></h2></li>
+<li class="col-3-1" >
+                                                <p><a href="/us/22.html"><img src="http://img.junlaw.cn/himg/ph.jpg"  alt="彭浩律师" /></a></p>
+                                                <h2><a href="/us/22.html" >彭浩律师</a></h2></li>
+<li class="col-3-1" >
+                                                <p><a href="/us/23.html"><img src="http://img.junlaw.cn/himg/ztt.jpg"  alt="张婷婷律师" /></a></p>
+                                                <h2><a href="/us/23.html" >张婷婷律师</a></h2></li>
+<li class="col-3-1" >
+                                                <p><a href="/us/16.html"><img src="http://img.junlaw.cn/himg/1-1F92022063Xa.jpg"  alt="龚燚律师" /></a></p>
+                                                <h2><a href="/us/16.html" >龚燚律师</a></h2></li>
+
+                                        </ul>
+                                        <p class="tab-more tab-more-center"><a href=" /us/">MORE</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="module-full-screen" style="">
+                <div class="module-inner not-animated" data-animate="fadeInUp" data-delay="200">
+                    <div class="page-width">
+                        <div class="module-full-screen-title">
+                            <h2>News Updates</h2>
+                            <div class="module-title-content">
+                                <h3>法律资讯</h3></div><em class="module-full-screen-title-line"></em></div>
+                        <div id="a1portalSkin_ctr308951308951_mainArea" class="module-full-screen-content">
+                            <div class="headlines-list-2col clearfix">
+                                <div class="headlines-content not-animated" data-animate="fadeInUp" data-delay="200">
+                                    <p><a href="/law/19.html" target="_blank"><img src="http://img.junlaw.cn/himg/1-1F91R34122155.jpg"  alt="有欠条不必然成立民间借贷关系" /></a></p>
+                                    <h2><a href="/law/19.html" target="_blank">有欠条不必然成立民间借贷关系</a></h2>
+                                    <div class="headlines-content-summary">
+                                        <div class="qhd-content">
+                                            <p>在一张载明“今欠到何某村8组村民袁某甲现金2万元(大写贰万元整)，此款在何某村1组整体拆迁</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="headlines-others not-animated" data-animate="fadeInUp" data-delay="400">
+                                    <div class="entry-list entry-list-time-hl entry-set-time-hl">
+                                        <div class="entry-item">
+                                            <div class="time">
+                                                <p class="time-day">18</p>
+                                                <p class="time-date">2017-09</p>
+                                            </div>
+                                            <div class="entry-title">
+                                                <h2><a href="/law/18.html" target="_blank">微信红包接龙赚钱是否构成赌博罪</a></h2></div>
+                                            <div class="entry-summary">
+                                                <div class="qhd-content">
+                                                    <p>
+                                                        小游在微信里建立了一个名为“接龙敢不敢”的微信群，后经朋友之间相互拉人进群，有群成员1</p>
+                                                </div>
+                                            </div>
+                                        </div>
+<div class="entry-item">
+                                            <div class="time">
+                                                <p class="time-day">16</p>
+                                                <p class="time-date">2017-09</p>
+                                            </div>
+                                            <div class="entry-title">
+                                                <h2><a href="/law/6.html" target="_blank">法律上如何界定婚姻感情确已破裂</a></h2></div>
+                                            <div class="entry-summary">
+                                                <div class="qhd-content">
+                                                    <p>
+                                                        这是非常多想要离婚的人群最关心的问题，因为否则就是旷日持久的等待。 《婚姻法》第三十二</p>
+                                                </div>
+                                            </div>
+                                        </div>
+<div class="entry-item">
+                                            <div class="time">
+                                                <p class="time-day">16</p>
+                                                <p class="time-date">2017-09</p>
+                                            </div>
+                                            <div class="entry-title">
+                                                <h2><a href="/law/5.html" target="_blank">最高院修改了婚姻法解释二的第24</a></h2></div>
+                                            <div class="entry-summary">
+                                                <div class="qhd-content">
+                                                    <p>
+                                                        我们先来对比以下新旧条文： 旧条文：第二十四条 债权人就婚姻关系存续期间夫妻一方以个人</p>
+                                                </div>
+                                            </div>
+                                        </div>
+<div class="entry-item">
+                                            <div class="time">
+                                                <p class="time-day">16</p>
+                                                <p class="time-date">2017-09</p>
+                                            </div>
+                                            <div class="entry-title">
+                                                <h2><a href="/law/4.html" target="_blank">谁先提出离婚谁吃亏吗</a></h2></div>
+                                            <div class="entry-summary">
+                                                <div class="qhd-content">
+                                                    <p>
+                                                        谁先提离婚谁吃亏这说法，并没有法律依据。夫妻双方都有婚姻自由，包括结婚自由和离婚自由</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-main">
+            <div id="a1portalSkin_footerAreaA" class="page-width clearfix">
+                <a name="27764" id="27764"></a>
+                <div class="module-default">
+                    <div class="module-inner">
+                        <div id="a1portalSkin_ctr308953308953_mainArea" class="module-content">
+                            <div class="qhd-module">
+                                <div class="column">
+                                    <div class="col-2-1">
+                                        <div id="a1portalSkin_ctr308953308953_Column2C50A50_QHDCPM308953M1" class="qhd_column_contain">
+                                            <a name="27766" id="27766"></a>
+                                            <div class="module-default">
+                                                <div class="module-inner">
+                                                    <div class="module-title module-title-default clearfix">
+                                                        <div class="module-title-content clearfix">
+                                                            <h3 style="" class="">联系我们</h3></div>
+                                                    </div>
+                                                    <div id="a1portalSkin_ctr308953308953_Column2C50A50_ctr308955308955_mainArea" class="module-content">
+                                                        <div class="qhd-content">
+                                                            <p>
+                                                                手机：18908376927
+                                                                <br />
+                                                                <span style="line-height: 1.8;">座机：023-67644892<br />
+  邮件：11553837@qq.com</span>
+                                                                <br />
+                                                                <span style="line-height: 1.8;">地址：重庆市渝中区华盛路7号企业天地7号楼10层</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2-1 last">
+                                        <div id="a1portalSkin_ctr308953308953_Column2C50A50_QHDCPM308953M2" class="qhd_column_contain"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <section class="bottom">
+        <div id="a1portalSkin_bottomAreaA" class="page-width clearfix">
+            <a name="27763" id="27763"></a>
+            <div class="module-default module-no-margin">
+                <div class="module-inner">
+                    <div id="a1portalSkin_ctr308952308952_mainArea" class="module-content">
+                        <div class="qhd-content">
+                            <div class="column">
+                                <div class="col-2-1">
+                                    <p>COPYRIGHT&#169; 2017 君言法律顾问 渝ICP备17012435号</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="con_m">
+        <script>
+        function displayit(n) {
+            for (i = 0; i < 4; i++) {
+                if (i == n) {
+                    var id = 'menu_list' + n;
+                    if (document.getElementById(id).style.display == 'none') {
+                        document.getElementById(id).style.display = '';
+                        document.getElementById("plug-wrap").style.display = '';
+                    } else {
+                        document.getElementById(id).style.display = 'none';
+                        document.getElementById("plug-wrap").style.display = 'none';
+                    }
+                } else {
+                    if ($('#menu_list' + i)) {
+                        $('#menu_list' + i).css('display', 'none');
+                    }
+                }
+            }
+        }
+        function closeall() {
+            var count = document.getElementById("top_menu").getElementsByTagName("ul").length;
+            for (i = 0; i < count; i++) {
+                document.getElementById("top_menu").getElementsByTagName("ul").item(i).style.display = 'none';
+            }
+            document.getElementById("plug-wrap").style.display = 'none';
+        }
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('hideToolbar');
+        });
+        </script>
+        <div id="sharemcover" onclick="document.getElementById('sharemcover').style.display='';" style=" display:none"><img src="./style11_files/MgnnofmleM.png"></div>
+        <div class="top_bar" style="-webkit-transform:translate3d(0,0,0)">
+            <nav>
+                <ul id="top_menu" class="top_menu">
+                    <li>
+                        <a href="tel:18908376927"><img src="http://img.junlaw.cn/himg/plugmenu1.png">
+                        <label>一键拨号</label>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="http://map.baidu.com/?poiShareId=6f9af2ed13cc58556d476051&tn=B_NORMAL_MAP&hb=B_SATELLITE_STREET"><img src="http://img.junlaw.cn/himg/plugmenu3.png">
+                        <label>一键导航</label>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="/serve/24.html"><img src="http://img.junlaw.cn/himg/plugmenu2.png">
+                        <label>微信咨询</label>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="plug-wrap" onclick="closeall()" style="display: none;"></div>
+    </section>
+    </div>
+    <div class="gotop-wrapper"><a href="javascript:;" class="fixed-gotop gotop"></a></div>
+</body>
+</html>
